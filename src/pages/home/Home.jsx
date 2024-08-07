@@ -128,8 +128,10 @@ const HousePriceForecast = () => {
     if (modelParams?.n_estimators) queryparams += "&n_estimators=" + modelParams.n_estimators;
     if (modelParams?.max_depth) queryparams += "&max_depth=" + modelParams.max_depth;
 
-     let endpoint = "http://127.0.0.1:5000?";
-    //let endpoint = "https://devbasitt.pythonanywhere.com?";
+//     let endpoint = "http://127.0.0.1:5000?";
+    let endpoint=    "https://talhaa.pythonanywhere.com?";
+    
+
     if (queryparams) endpoint += queryparams;
 
     try {

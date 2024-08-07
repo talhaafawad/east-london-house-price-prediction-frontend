@@ -1,5 +1,5 @@
-///export const baseURL = "https://house-price-predictor-api.onrender.com/api/";
-export const baseURL= "http://localhost:3006/api/";
+export const baseURL = "https://east-london-house-price-prediction.onrender.com/api/"
+//export const baseURL= "http://localhost:3006/api/";
 export const cloudinary = {
   cloudName: "dkf6eqc15",
   upload_preset: "lrjj4mqx",
