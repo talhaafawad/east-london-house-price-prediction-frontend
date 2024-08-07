@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.homeForm {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  row-gap: 1rem;
+  // padding-top: 5rem;
+  // height: 100vh;
+  padding-top: 2rem;
+
+  // border: 1px solid red;
+
+  h3 {
+    margin-bottom: 0.3rem;
+  }
+
+  label {
+    margin-right: 1rem;
+  }
+
+  input {
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+  }
+}
